@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"description": [
+			{
+				"text": "Dynamic Campfires",
+				"color": "gold"
+			},
+			{
+				"text": " v1.0\n",
+				"color": "blue"
+			},
+			{
+				"text": "www.yoavtc.work",
+				"color": "dark_gray",
+				"underlined": true
+			}
+		],
+		"min_format": 94,
+		"max_format": 94
+	}
+}

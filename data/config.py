@@ -1,0 +1,1 @@
+DESTINATION_PATH =r"C:\Users\owner\AppData\Roaming\PrismLauncher\instances\Technical 1.21.11\minecraft\saves\Lights\datapacks\src"

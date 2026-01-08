@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "nbt": "{components:{'minecraft:custom_data':{light:1b}}}",
+                                "blocks": "#minecraft:campfires"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dynamic_campfires:_events/on_place"
+    }
+}

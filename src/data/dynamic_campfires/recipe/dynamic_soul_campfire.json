@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:soul_campfire",
+        "minecraft:daylight_detector"
+    ],
+    "result": {
+        "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "setup": 0,
+                "reversed": false,
+                "light": true
+            },
+            "minecraft:lore": [
+                {
+                    "text": "Soul campfire that turns off at day and on at night",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "Sneak place to reverse the effect",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:item_name": {
+                "italic": false,
+                "color": "aqua",
+                "text": "Dynamic Soul Campfire"
+            }
+        },
+        "count": 1,
+        "id": "minecraft:soul_campfire"
+    }
+}
