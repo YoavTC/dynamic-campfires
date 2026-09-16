@@ -3,18 +3,21 @@
         "place": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "nbt": "{components:{'minecraft:custom_data':{light:1b}}}",
-                                "blocks": "#minecraft:campfires"
+                "location": {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#campfires",
+                            "predicates": {
+                                "custom_data": {
+                                    "light": true
+                                }
                             }
                         }
                     }
-                ]
+                }
             }
+
         }
     },
     "rewards": {
